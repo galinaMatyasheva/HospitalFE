@@ -1,0 +1,54 @@
+.table-receptions {
+  .MuiTableCell-root {
+    border-bottom: none;
+    font-size: 18px;
+    min-width: 135px;
+  }
+
+  .MuiTableHead-root {
+    background: #c4c4c4;
+    border: 1px solid #c4c4c4;
+    border-bottom: 1px solid #000;
+  }
+
+  .MuiIconButton-root {
+    color: #000;
+  }
+
+  .MuiTableBody-root {
+    border: 1px solid #000;
+  }
+
+  .MuiTableContainer-root {
+    overflow-x: initial;
+  }
+
+  .table-cell {
+    border-right: 1px solid #000;
+  }
+
+  .table-row {
+    width: 100%;
+    .first {
+      width: 25%;
+      word-break: break-all;
+    }
+
+    .second {
+      width: 25%;
+    }
+
+    .third {
+      width: 15%;
+    }
+
+    .fourth {
+      width: 23%;
+      word-break: break-all;
+    }
+
+    .fifth {
+      width: 12%;
+    }
+  }
+}

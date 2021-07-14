@@ -1,0 +1,39 @@
+.main-container {
+  overflow-x: auto;
+  height: 100vh;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    display: none;
+    background: transparent;
+  }
+  
+
+  .MuiContainer-maxWidthLg {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+}
+
+.main-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    min-width: 375px;
+    width: 35%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .main-container {
+    .MuiContainer-maxWidthLg {
+      display: block;
+      padding: 20px;
+      text-align: center;
+      overflow-x: hidden;
+    }
+  }
+}

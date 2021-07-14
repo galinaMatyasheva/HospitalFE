@@ -1,0 +1,60 @@
+.delete-dialog-container {
+  .MuiDialogTitle-root {
+    padding: 20px 25px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .MuiTypography-h6 {
+      font-size: 36px;
+    }
+  }
+
+  .dialog-content .MuiDialogContentText-root {
+    color: #000;
+    font-size: 24px;
+  }
+
+  .MuiDialogContent-root {
+    padding: 35px 25px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .MuiDialogActions-root {
+    padding: 30px;
+  }
+
+  .MuiDialog-paperScrollPaper {
+    width: 100vw;
+    max-width: 800px;
+  }
+}
+
+.dialog-actions {
+  .MuiButton-text {
+    padding: 5px 45px;
+    text-transform: capitalize;
+    background: #fff;
+    border: 1px solid hsl(0, 0%, 67%);
+    font-size: 18px;
+    color: #000;
+  }
+
+  button:hover {
+    border-color: #3f51b5;
+    background: #fff;
+  }
+
+  .MuiButton-textPrimary {
+    color: #000;
+  }
+
+  .MuiDialogActions-spacing > :not(:first-child) {
+    margin-left: 20px;
+  }
+
+  .MuiButton-text:last-child {
+    padding: 6px 50px;
+    text-transform: capitalize;
+    background: #c5e9ff;
+    border: none;
+  }
+}

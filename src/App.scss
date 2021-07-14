@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  
+  &::-webkit-scrollbar {
+    width: 0;
+    display: none;
+    background: transparent;
+  }
+
+  .MuiPaper-root.MuiMenu-paper {
+    margin-top: 50px;
+  }
+
+}
+
+.app-container {
+  background-color: #c5e9ff;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}

@@ -1,0 +1,96 @@
+.edit-dialog-container {
+  // .MuiDialog-container.MuiDialog-scrollPaper {
+  //   .MuiPaper-root.MuiDialogPaper.MuiDialog-paperWidthSm {
+  //     max-width: 800px;
+  //   }
+  // }
+
+  .MuiDialogTitle-root {
+    padding: 20px 25px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .MuiTypography-h6 {
+      font-size: 36px;
+    }
+  }
+
+  .dialog-content .MuiDialogContentText-root {
+    color: #000;
+    font-size: 24px;
+  }
+
+  .MuiDialogContent-root {
+    overflow-x: hidden;
+    padding: 20px 25px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .MuiDialogActions-root {
+    padding: 30px;
+  }
+
+  .MuiDialog-paperScrollPaper {
+    width: 100vw;
+    overflow-x: hidden;
+    max-width: 800px;
+  }
+}
+
+.dialog-actions-edit {
+  .MuiButton-text {
+    padding: 5px 45px;
+    text-transform: capitalize;
+    background: #fff;
+    border: 1px solid hsl(0, 0%, 67%);
+    font-size: 18px;
+  }
+
+  button:hover {
+    border-color: #3f51b5;
+    background: #fff;
+  }
+
+  .MuiButton-textPrimary {
+    color: #000;
+  }
+
+  .MuiDialogActions-spacing > :not(:first-child) {
+    margin-left: 20px;
+  }
+
+  .MuiButton-text:last-child {
+    padding: 6px 60px;
+    text-transform: capitalize;
+    background: #c5e9ff;
+    border: none;
+  }
+}
+
+.edit-form-fields {
+  display: flex;
+  flex-direction: column;
+
+  .MuiInputBase-input {
+    padding: 12px 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .MuiOutlinedInput-multiline {
+    padding: 10px 14px;
+  }
+
+  label {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+
+  input {
+    padding: 10px 15px;
+  }
+}

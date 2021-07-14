@@ -1,0 +1,145 @@
+.main-container {
+  .sort-main-container {
+    .sort-container.MuiContainer-maxWidthLg {
+      padding: 20px 20px 0;
+    }
+
+    .filter-data.MuiContainer-maxWidthLg {
+      padding: 0 20px 0;
+    }
+  }
+}
+
+.sort-container.MuiContainer-maxWidthLg {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  label {
+    margin-right: 20px;
+  }
+
+  .MuiInputBase-input {
+    width: 215px;
+    padding: 12px 15px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+
+  .field-order {
+    margin-left: 15px;
+    align-items: center;
+  }
+
+  .field-filter {
+    display: flex;
+    margin-left: 15px;
+
+    .MuiSvgIcon-root {
+      font-size: 40px;
+    }
+
+    .MuiIconButton-root {
+      color: #000;
+    }
+  }
+}
+
+.filter-data {
+  justify-content: space-between;
+
+  label {
+    margin-right: 5px;
+  }
+
+  .filter-button {
+    padding: 9px 75px;
+    background: #fff;
+    border: 1px solid #aaaaaa;
+  }
+
+  button {
+    color: #000;
+    .MuiSvgIcon-root {
+      font-size: 40px;
+    }
+  }
+}
+
+.filter-data-data {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+
+  .MuiFormControl-root {
+    .MuiInputBase-root {
+      width: 40vh;
+      background-color: #fff;
+      border-radius: 4px;
+    }
+
+    .MuiOutlinedInput-input {
+      padding: 12.5px 14px;
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .sort-container.MuiContainer-maxWidthLg {
+    .field-sort,
+    .field-order {
+      flex-direction: column;
+      margin-left: 0;
+      margin-bottom: 10px;
+      display: flex;
+      text-align: left;
+    }
+
+    .MuiInputBase-input {
+      width: 100%;
+    }
+
+    .MuiFormControl-root {
+      width: 100%;
+    }
+
+    .MuiInputBase-root {
+      width: 100%;
+    }
+
+    label {
+      margin-bottom: 5px;
+    }
+  }
+
+  .filter-data {
+    flex-direction: column;
+
+    .filter-button {
+      margin-top: 10px;
+      width: 50%;
+    }
+
+    .filter-data-data {
+      width: 100%;
+      flex-direction: column;
+      align-items: start;
+
+      .MuiInputBase-input {
+        width: 100%;
+      }
+
+      .MuiFormControl-root {
+        width: 100%;
+      }
+
+      .MuiInputBase-root {
+        width: 100%;
+      }
+
+      label {
+        margin: 5px 0;
+      }
+    }
+  }
+}
